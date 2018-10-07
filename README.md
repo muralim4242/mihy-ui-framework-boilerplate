@@ -7,10 +7,12 @@ MIHY is boilerplate for creating screen using writing object configuration
 * NPM
 
 ## Installation & Development
-`$ npm clone https://github.com/muralimgwl/mihy-ui-framework-boilerplate.git`
-`$ cd mihy-ui-framework-boilerplate`
-`$ npm i`
-`$ npm start`
+```
+$ npm clone https://github.com/muralimgwl/mihy-ui-framework-boilerplate.git
+$ cd mihy-ui-framework-boilerplate
+$ npm i
+$ npm start
+```
 
 ### Note : We have added default configuration for login,register, dashboard and advance dashboard, it will use for you to create new configuration for screen.
 
