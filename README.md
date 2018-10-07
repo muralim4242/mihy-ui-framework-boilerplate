@@ -185,10 +185,11 @@ Please make sure to update tests as appropriate.
 
 ### Special thanks
 1. Sonia
-2. Abhishek
-3. Ranjeet
-4. Tharu
-5. My ui team members
+2. Vishwas
+3. Abhishek
+4. Ranjeet
+5. Tharu
+6. My ui team members
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
