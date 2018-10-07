@@ -14,16 +14,16 @@ $ npm i
 $ npm start
 ```
 
-### Note : We have added default configuration for login,register, dashboard and advanced dashboard, it will use for you to create new configuration for screen.
+#### Note : We have added default configuration for login,register, dashboard and advanced dashboard, it will use for you to create new configuration for screen.
 
 ## Usage
 
-1. Go to src/ui-config/screens/specs/.
-2. Create a folder for your set of screens. eg:Blood.
-3. Create a file for screen. eg:dashboard.js
+1. Go to src/ui-config/screens/specs/ in root of the project.
+2. Create a folder for your set of screens. eg:auth.
+3. Create a file for screen. eg:login.js
 4. Write your configuration.
 
-example code
+#### example code
 
 ```
 import {
@@ -113,13 +113,6 @@ const screenConfig = {
                       children: {
                         mihyLoginButtonText: getLabel({label:"Let's go"})
                       }
-                      // onClickDefination:{
-                      //   action:"submit",
-                      //   method:"get",
-                      //   endPoint:"afbc.com",
-                      //   purpose:"authLogin",
-                      //   redirectionUrl:"/"
-                      // }
                     }
                   }
                 }
@@ -150,8 +143,22 @@ const screenConfig = {
 export default screenConfig;
 
 ```
+5. Save a file,enter a url in browser like bellow,
 
-### Note: Many components we directly reffered [material-ui](https://material-ui.com/) framework, thanks to material-ui for giving such a beautifull components.
+### page with menu
+```
+http://localhost:<port-name>/landing/mihy-ui-framework/<folder-name>/<file-name> 
+# http://localhost:3000/landing/mihy-ui-framework/auth/login
+```
+
+### page without menu
+```
+http://localhost:<port-name>/mihy-ui-framework/<folder-name>/<file-name> 
+# http://localhost:3000/mihy-ui-framework/auth/login
+```
+
+
+#### Note: Many components we directly reffered [material-ui](https://material-ui.com/) framework, thanks to material-ui for giving such a beautifull components.
 
 example for using material ui components
 ### React way for rendering Material-ui component
