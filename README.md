@@ -148,13 +148,13 @@ export default screenConfig;
 ### page with menu
 ```
 http://localhost:<port-name>/landing/mihy-ui-framework/<folder-name>/<file-name> 
-# http://localhost:3000/landing/mihy-ui-framework/auth/login
+eg:- http://localhost:3000/landing/mihy-ui-framework/auth/login
 ```
 
 ### page without menu
 ```
 http://localhost:<port-name>/mihy-ui-framework/<folder-name>/<file-name> 
-# http://localhost:3000/mihy-ui-framework/auth/login
+eg:- http://localhost:3000/mihy-ui-framework/auth/login
 ```
 
 
