@@ -1,6 +1,6 @@
 # MIHY
 
-MIHY is boilerplate for creating screen using writing object configuration
+MIHY is boilerplate for creating screen by writing object configuration
 
 ### Requirements
 * Node js
@@ -8,13 +8,13 @@ MIHY is boilerplate for creating screen using writing object configuration
 
 ## Installation & Development
 ```
-$ npm clone https://github.com/muralimgwl/mihy-ui-framework-boilerplate.git
+$ npm clone https://github.com/muralim4242/mihy-ui-framework-boilerplate.git
 $ cd mihy-ui-framework-boilerplate
 $ npm i
 $ npm start
 ```
 
-### Note : We have added default configuration for login,register, dashboard and advance dashboard, it will use for you to create new configuration for screen.
+### Note : We have added default configuration for login,register, dashboard and advanced dashboard, it will use for you to create new configuration for screen.
 
 ## Usage
 
@@ -154,7 +154,7 @@ export default screenConfig;
 ### Note: Many components we directly reffered [material-ui](https://material-ui.com/) framework, thanks to material-ui for giving such a beautifull components.
 
 example for using material ui components
-### React way for rendering Material component
+### React way for rendering Material-ui component
 ```
 import React from 'react';
 import Button from '@material-ui/core/Button';
@@ -176,6 +176,10 @@ primaryButton:{
 }
 ......
 ```
+
+## Default screens
+### login
+![alt text](https://github.com/muralim4242/mihy-ui-framework-boilerplate/blob/master/src/ui-assets/images/login.png)
 
 
 ## Contributing
