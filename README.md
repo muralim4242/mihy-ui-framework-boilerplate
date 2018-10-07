@@ -177,9 +177,18 @@ primaryButton:{
 ......
 ```
 
-## Default screens
+## Inbuilt screens
 ### login
 ![alt text](https://github.com/muralim4242/mihy-ui-framework-boilerplate/blob/master/src/ui-assets/images/login.png)
+
+### Register
+![alt text](https://github.com/muralim4242/mihy-ui-framework-boilerplate/blob/master/src/ui-assets/images/register.png)
+
+### Dashboard
+![alt text](https://github.com/muralim4242/mihy-ui-framework-boilerplate/blob/master/src/ui-assets/images/landing.png)
+
+### Nested app dashboard
+![alt text](https://github.com/muralim4242/mihy-ui-framework-boilerplate/blob/master/src/ui-assets/images/blood_dashboard.png)
 
 
 ## Contributing
